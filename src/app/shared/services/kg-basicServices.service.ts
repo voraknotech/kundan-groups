@@ -1,5 +1,5 @@
-//Library
-import { Injectable } from '@angular/core'
+// Library
+import { Injectable } from "@angular/core";
 
 @Injectable()
 export class KgBasicServices {

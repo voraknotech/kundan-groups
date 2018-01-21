@@ -1,27 +1,28 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { ServiceWorkerModule } from "@angular/service-worker";
 
-import { AppRoutingModule } from './app-routing.module';
+import { environment } from "../environments/environment";
 
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { SharedModule } from "./shared/shared.module";
+import { PageModule } from "./pages/pages.module";
 
-//Pages
-import { KgMainPage } from './pages/kg-main/kg-main.component'
+import { AppComponent } from "./app.component";
 
-//Services
-import { KgBasicServices } from './services/kg-basicServices.service'
-
+import { KgMainPageComponent } from "./pages/kg-main/kg-main.component"
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    KgMainPage
-  ],
+  declarations: [AppComponent, KgMainPageComponent],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule.withServerTransition({ appId: "kundan-groups" }),
+    ServiceWorkerModule.register("/ngsw-worker.js", {
+      enabled: environment.production
+    }),
+    AppRoutingModule,
+    SharedModule
   ],
-  providers: [KgBasicServices],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

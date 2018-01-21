@@ -1,7 +1,6 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
 # compiled output
-/dist
+/public/dist
+/public/etc
 /tmp
 /out-tsc
 
@@ -18,6 +17,7 @@
 *.sublime-workspace
 
 # IDE - VSCode
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
