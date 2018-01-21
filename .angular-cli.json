@@ -59,9 +59,9 @@
       "spec": false
     },
     "component": {
+      "spec": false,
       "inlineStyle": true,
-      "inlineTemplate": true,
-      "spec": false
+      "inlineTemplate": true
     },
     "directive": {
       "spec": false
@@ -78,5 +78,8 @@
     "service": {
       "spec": false
     }
+  },
+  "warnings": {
+    "typescriptMismatch": false
   }
 }

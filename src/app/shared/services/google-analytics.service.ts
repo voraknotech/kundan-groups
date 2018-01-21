@@ -7,7 +7,7 @@ declare var ga;
 export class GoogleAnalyticsService {
   private googleAnalyticsKey: string = "UA-112417282-1";
 
-  constructor( @Inject(PLATFORM_ID) private platformId: Object) {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
     this.initGoogleAnalytics();
   }
 
@@ -19,7 +19,7 @@ export class GoogleAnalyticsService {
     try {
       window["ga"] =
         window["ga"] ||
-        function () {
+        function() {
           (ga.q = ga.q || []).push(arguments);
         };
       ga.l = +new Date();

@@ -10,11 +10,10 @@ import { PageModule } from "./pages/pages.module";
 
 import { AppComponent } from "./app.component";
 
-import { KgMainPageComponent } from "./pages/kg-main/kg-main.component"
-
 @NgModule({
-  declarations: [AppComponent, KgMainPageComponent],
+  declarations: [AppComponent],
   imports: [
+    PageModule,
     BrowserModule.withServerTransition({ appId: "kundan-groups" }),
     ServiceWorkerModule.register("/ngsw-worker.js", {
       enabled: environment.production
@@ -25,4 +24,4 @@ import { KgMainPageComponent } from "./pages/kg-main/kg-main.component"
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
