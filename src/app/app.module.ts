@@ -5,16 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
+//Pages
+import { KgMainPage } from './pages/kg-main/kg-main.component'
+
+//Services
+import { KgBasicServices } from './services/kg-basicServices.service'
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KgMainPage
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [KgBasicServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
