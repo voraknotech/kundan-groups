@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "http://www.voraknotech.com/kundan-groups/index.html",
+  "index": "http://www.kundangroups.com/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "http://www.voraknotech.com/kundan-groups/favicon.ico",
-        "http://www.voraknotech.com/kundan-groups/index.html",
-        "http://www.voraknotech.com/kundan-groups/inline.2f6260e3056838972d53.bundle.js",
-        "http://www.voraknotech.com/kundan-groups/main.3e3856704875168dd52f.bundle.js",
-        "http://www.voraknotech.com/kundan-groups/polyfills.0fbb33eaf5aae7da9e9a.bundle.js",
-        "http://www.voraknotech.com/kundan-groups/styles.d41d8cd98f00b204e980.bundle.css"
+        "http://www.kundangroups.com/favicon.ico",
+        "http://www.kundangroups.com/index.html",
+        "http://www.kundangroups.com/inline.2f6260e3056838972d53.bundle.js",
+        "http://www.kundangroups.com/main.3e3856704875168dd52f.bundle.js",
+        "http://www.kundangroups.com/polyfills.0fbb33eaf5aae7da9e9a.bundle.js",
+        "http://www.kundangroups.com/styles.d41d8cd98f00b204e980.bundle.css"
       ],
       "patterns": []
     },
@@ -21,7 +21,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "http://www.voraknotech.com/kundan-groups/assets/manifest.json"
+        "http://www.kundangroups.com/assets/manifest.json"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
@@ -32,12 +32,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "http://www.voraknotech.com/kundan-groups/inline.2f6260e3056838972d53.bundle.js": "cf1ad479a167d716cc2ecc65c8eeabc26b3ba23d",
-    "http://www.voraknotech.com/kundan-groups/assets/manifest.json": "72f6f7319bc65316f050cef795ebe41ae77477d4",
-    "http://www.voraknotech.com/kundan-groups/main.3e3856704875168dd52f.bundle.js": "f919f1dfc607b3a1e622ceefd73135d9a872918b",
-    "http://www.voraknotech.com/kundan-groups/polyfills.0fbb33eaf5aae7da9e9a.bundle.js": "681376885afb2fbd585549769d0d0db02ea251e0",
-    "http://www.voraknotech.com/kundan-groups/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "http://www.voraknotech.com/kundan-groups/favicon.ico": "5168201405c98593ddf271e249b323d7515b2139",
-    "http://www.voraknotech.com/kundan-groups/index.html": "3bfe81d90c6ba90e2cd4f4cdeffddca696935e52"
+    "http://www.kundangroups.com/inline.2f6260e3056838972d53.bundle.js": "cf1ad479a167d716cc2ecc65c8eeabc26b3ba23d",
+    "http://www.kundangroups.com/assets/manifest.json": "72f6f7319bc65316f050cef795ebe41ae77477d4",
+    "http://www.kundangroups.com/main.3e3856704875168dd52f.bundle.js": "f919f1dfc607b3a1e622ceefd73135d9a872918b",
+    "http://www.kundangroups.com/polyfills.0fbb33eaf5aae7da9e9a.bundle.js": "681376885afb2fbd585549769d0d0db02ea251e0",
+    "http://www.kundangroups.com/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "http://www.kundangroups.com/favicon.ico": "5168201405c98593ddf271e249b323d7515b2139",
+    "http://www.kundangroups.com/index.html": "26958d1374cb77a0e1e298fd3d379b530e4e1b49"
   }
 }
