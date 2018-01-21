@@ -11,7 +11,7 @@
     "build:webpack": "webpack --config webpack.server.config.js --progress --colors",
     "build:universal": "npm run build:client && npm run build:server && npm run build:webpack",
     "serve:universal": "npm start --prefix ./public/",
-    "deploy:dev": "ng build --prod --aot --base-href http://www.voraknotech.com/kundan-groups/ && ngh --dir=public/dist/browser/",
+    "deploy:dev": "ng build --prod --aot --base-href http://www.kundangroups.com/ && ngh --dir=public/dist/browser/",
     "deploy:prod": "npm run build:universal && ngh --dir=public/ --branch=prod"
   },
   "private": true,
