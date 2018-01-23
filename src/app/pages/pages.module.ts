@@ -1,22 +1,11 @@
 import { NgModule, ErrorHandler } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
-import { KgMainPageComponent, KgAboutUsComponent, KgContactUsComponent, PageNotFoundComponent } from "./";
-
+import { PagesRoutingModule } from "./pages-routing.module";
 @NgModule({
-    imports: [CommonModule],
-    declarations: [
-        KgMainPageComponent,
-        KgAboutUsComponent,
-        KgContactUsComponent,
-        PageNotFoundComponent
-    ],
-    providers: [],
-    exports: [
-        KgMainPageComponent,
-        KgAboutUsComponent,
-        KgContactUsComponent,
-        PageNotFoundComponent
-    ]
+  imports: [CommonModule, PagesRoutingModule],
+  declarations: [],
+  providers: [],
+  exports: []
 })
-export class PageModule { }
+export class PagesModule {}

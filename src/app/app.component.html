@@ -1,16 +1,4 @@
-<ng-container>
-  <kg-main></kg-main>
-  <ul>
-    <li>
-        <a routerLink="/home" routerLinkActive="active">Home</a>
-    </li>
-    <li>
-        <a routerLink="/aboutus" routerLinkActive="active">About Us</a>
-    </li>
-    <li>
-        <a routerLink="/contactus" routerLinkActive="active">Contact Us</a>
-    </li>
-</ul>
-
-  <router-outlet></router-outlet>
-</ng-container>
+<kg-header></kg-header>
+<router-outlet></router-outlet>
+<router-outlet name="popup"></router-outlet>
+<kg-footer></kg-footer>
