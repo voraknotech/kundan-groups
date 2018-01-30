@@ -6,4 +6,12 @@ import { Component } from "@angular/core";
   templateUrl: "kg-header.component.html",
   styleUrls: ["kg-header.component.css"]
 })
-export class KgHeaderComponent {}
+export class KgHeaderComponent {
+  private visibleMenu: boolean;
+  clicked(event) {
+    if (event.target.tagName === 'A') {
+      event.target.classList.toggle('active'); // To ADD
+      this.visibleMenu = !this.visibleMenu;
+    }
+  }
+}
