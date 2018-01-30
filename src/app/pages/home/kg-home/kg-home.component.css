@@ -24,6 +24,10 @@
     background: #18191b;
 }
 
+.id-color {
+    color: #FAB702;
+}
+
 
 /* ================================================== */
 
@@ -69,7 +73,7 @@ section,
 }
 
 #section-welcome-8 {
-    background: url(../../../../assets/images/bg-20.jpg) fixed center;
+    background: url(../../../../assets/images/bg-20.jpg) fixed center no-repeat;
 }
 
 .de_light #section-team {
@@ -129,6 +133,13 @@ h1.title {
     height: 30px;
     display: block;
     clear: both;
+}
+
+h1.title strong {
+    font-family: "Allura";
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
 }
 
 
