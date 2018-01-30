@@ -1,12 +1,36 @@
-<h1>Welome to kundan groups</h1>
-<ul>
-    <li>
-        <a routerLink="/" routerLinkActive="active">Home</a>
-    </li>
-    <li>
-        <a routerLink="/about" routerLinkActive="active">About Us</a>
-    </li>
-    <li>
-        <a routerLink="/contact" routerLinkActive="active">Contact Us</a>
-    </li>
-</ul>
+<header>
+    <div class="logo main-logo" style="display: block;">
+        <a routerLink="/" routerLinkActive="active" class="animsition-link">
+            <img src="../../assets/images/logo.png" alt="Kundan Groups Logo" style="width:50px;">
+        </a>
+    </div>
+
+    <div class="mobile-icon" style="display: block;">
+        <div class="nav-menu-icon">
+            <a href="#" class="" (click)="clicked($event)">
+                <i></i>
+            </a>
+        </div>
+    </div>
+
+    <nav class="parent-menu" [ngClass]="{'slide-menu':visibleMenu}">
+        <ul id=" menu-menu-1 " class="navigation ">
+            <li id="menu-item-123 " class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-121 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children
+        menu-item-123 ">
+                <a routerLink="/" routerLinkActive="active" class="animsition-link ">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li id="menu-item-47 " class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47 ">
+                <a routerLink="/about" routerLinkActive="active" class="animsition-link ">
+                    <span>About</span>
+                </a>
+            </li>
+            <li id="menu-item-36 " class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 ">
+                <a routerLink="/contact" routerLinkActive="active" class="animsition-link ">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
