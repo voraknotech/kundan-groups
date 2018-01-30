@@ -10,9 +10,11 @@ import { SharedModule } from "./shared/shared.module";
 import { PagesModule } from "./pages/pages.module";
 
 import { AppComponent, KgHeaderComponent, KgFooterComponent } from "./";
+import { DownloadComponent } from "./components/DownloadDriveComponent/download.component";
+
 
 @NgModule({
-  declarations: [AppComponent, KgHeaderComponent, KgFooterComponent],
+  declarations: [AppComponent, KgHeaderComponent, KgFooterComponent, DownloadComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: "kundan-groups" }),
     ServiceWorkerModule.register("/ngsw-worker.js", {

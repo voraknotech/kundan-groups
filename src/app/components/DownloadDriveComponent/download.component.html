@@ -1,0 +1,3 @@
+<div *ngFor="let link of downloadLinks; index as i">
+    <a [ngClass]="cssClass" href="{{link}}" download="{{downloadTitle[i]}}" >{{downloadTitle[i]}}</a> 
+</div>
