@@ -16,9 +16,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "kg",
       "serviceWorker": true,
-      "styles": [
-        "styles.css"
-      ],
+      "styles": ["styles.css"],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -38,9 +36,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "kg",
       "serviceWorker": true,
-      "styles": [
-        "styles.css"
-      ],
+      "styles": ["styles.css"],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
