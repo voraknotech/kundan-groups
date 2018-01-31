@@ -8,22 +8,24 @@ import { environment } from "../environments/environment";
 import { AppRoutingModule } from "./app-routing.module";
 import { SharedModule } from "./shared/shared.module";
 import { PagesModule } from "./pages/pages.module";
+import { ComponentsModule } from "./components/components.module";
 
 import { AppComponent, KgHeaderComponent, KgFooterComponent } from "./";
-import { DownloadComponent } from "./components/DownloadDriveComponent/download.component";
+import { DownloaderComponent } from "./components/vt-downloader/vt-downloader.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     KgHeaderComponent,
     KgFooterComponent,
-    DownloadComponent
+    // DownloaderComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "kundan-groups" }),
     ServiceWorkerModule.register("/ngsw-worker.js", {
       enabled: environment.production
     }),
+    ComponentsModule,
     PagesModule,
     SharedModule,
     AppRoutingModule
@@ -32,5 +34,5 @@ import { DownloadComponent } from "./components/DownloadDriveComponent/download.
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(router: Router) {}
+  constructor(router: Router) { }
 }
