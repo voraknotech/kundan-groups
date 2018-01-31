@@ -9,8 +9,8 @@ import { Component } from "@angular/core";
 export class KgHeaderComponent {
   private visibleMenu: boolean;
   clicked(event) {
-    if (event.target.tagName === 'A') {
-      event.target.classList.toggle('active'); // To ADD
+    if (event.target.tagName === "A") {
+      event.target.classList.toggle("active"); // To ADD
       this.visibleMenu = !this.visibleMenu;
     }
   }

@@ -1,7 +1,11 @@
 import { NgModule, ErrorHandler } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
-import { GlobalErrorHandlerService, GoogleAnalyticsService, KgBasicServices } from "./";
+import {
+  GlobalErrorHandlerService,
+  GoogleAnalyticsService,
+  KgBasicServices
+} from "./";
 
 @NgModule({
   imports: [CommonModule],
@@ -16,4 +20,4 @@ import { GlobalErrorHandlerService, GoogleAnalyticsService, KgBasicServices } fr
   ],
   exports: []
 })
-export class SharedModule { }
+export class SharedModule {}
