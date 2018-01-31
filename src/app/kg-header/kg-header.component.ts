@@ -7,7 +7,8 @@ import { Component } from "@angular/core";
   styleUrls: ["kg-header.component.css"]
 })
 export class KgHeaderComponent {
-  private visibleMenu: boolean;
+  visibleMenu: boolean;
+
   clicked(event) {
     if (event.target.tagName === "A") {
       event.target.classList.toggle("active"); // To ADD
