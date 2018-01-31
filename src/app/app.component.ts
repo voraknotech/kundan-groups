@@ -10,7 +10,6 @@ declare var ga;
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-
   private filesStorageUrl: Array<string>;
   private filesTitle: Array<string>;
 
