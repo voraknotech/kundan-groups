@@ -5,9 +5,9 @@
         </a>
     </div>
 
-    <div class="mobile-icon" style="display: block;">
+    <div class="mobile-icon" style="display: block;" (click)="clicked($event)">
         <div class="nav-menu-icon">
-            <a href="javascript:void(0)" class="" (click)="clicked($event)">
+            <a href="javascript:void(0)" class="">
                 <i></i>
             </a>
         </div>
@@ -19,6 +19,11 @@
         menu-item-123 ">
                 <a routerLink="/" routerLinkActive="active" class="animsition-link ">
                     <span>Home</span>
+                </a>
+            </li>
+            <li id="menu-item-47 " class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47 ">
+                <a routerLink="/products" routerLinkActive="active" class="animsition-link ">
+                    <span>Products</span>
                 </a>
             </li>
             <li id="menu-item-47 " class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47 ">

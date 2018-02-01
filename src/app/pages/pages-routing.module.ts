@@ -5,7 +5,7 @@ const routes: Routes = [
   { path: "", loadChildren: "./home/home.module#HomeModule" },
   { path: "about", loadChildren: "./about/about.module#AboutModule" },
   { path: "contact", loadChildren: "./contact/contact.module#ContactModule" },
-  { path: "product1", loadChildren: "./products/products.module#ProductsModule" }
+  { path: "products", loadChildren: "./products/products.module#ProductsModule" }
 ];
 
 @NgModule({
