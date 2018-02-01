@@ -4,9 +4,9 @@ import { CommonModule } from "@angular/common";
 import { DownloaderComponent } from "./index";
 
 @NgModule({
-    imports: [CommonModule],
-    declarations: [DownloaderComponent],
-    providers: [],
-    exports: [DownloaderComponent]
+  imports: [CommonModule],
+  declarations: [DownloaderComponent],
+  providers: [],
+  exports: [DownloaderComponent]
 })
-export class ComponentsModule { }
+export class ComponentsModule {}

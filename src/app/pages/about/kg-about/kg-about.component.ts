@@ -5,6 +5,4 @@ import { Component } from "@angular/core";
   templateUrl: "kg-about.component.html",
   styleUrls: ["kg-about.component.css"]
 })
-export class KgAboutComponent {
-  
-}
+export class KgAboutComponent {}
