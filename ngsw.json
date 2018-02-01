@@ -9,12 +9,13 @@
       "urls": [
         "http://www.kundangroups.com/favicon.ico",
         "http://www.kundangroups.com/index.html",
-        "http://www.kundangroups.com/0.86bf580f31a8b930e0b2.chunk.js",
-        "http://www.kundangroups.com/1.a2e79e65394203172f37.chunk.js",
-        "http://www.kundangroups.com/2.bb04166ec4d58159d65f.chunk.js",
-        "http://www.kundangroups.com/inline.99890c804744ac18fd9c.bundle.js",
-        "http://www.kundangroups.com/main.685769de708f3812668f.bundle.js",
-        "http://www.kundangroups.com/polyfills.ffd81ab764e1d12b844c.bundle.js",
+        "http://www.kundangroups.com/0.6d8245959c65f081823f.chunk.js",
+        "http://www.kundangroups.com/1.ff15d63cc27cb8a17dad.chunk.js",
+        "http://www.kundangroups.com/2.8eb4bf8d1461cf84d932.chunk.js",
+        "http://www.kundangroups.com/3.fdfbe74aaa6b6555e154.chunk.js",
+        "http://www.kundangroups.com/inline.9af80b4ed3216668dc70.bundle.js",
+        "http://www.kundangroups.com/main.df766ff697c59f40d4ab.bundle.js",
+        "http://www.kundangroups.com/polyfills.18946ba35b4503d47f10.bundle.js",
         "http://www.kundangroups.com/styles.4a3fd0c58cf1abaa7b7d.bundle.css"
       ],
       "patterns": []
@@ -35,15 +36,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "http://www.kundangroups.com/0.86bf580f31a8b930e0b2.chunk.js": "ab0a7b4e681c8c037957519d0b03ecd48ca62409",
+    "http://www.kundangroups.com/0.6d8245959c65f081823f.chunk.js": "b82c76747f8f4f2b10f33b95d25cd078531f137a",
     "http://www.kundangroups.com/assets/manifest.json": "3a630fd0f73895147d0e744efe1f6eed51ddf6b4",
-    "http://www.kundangroups.com/1.a2e79e65394203172f37.chunk.js": "7a49b52f10ae761ca0c8c66d5aa5c64f4ce66891",
-    "http://www.kundangroups.com/2.bb04166ec4d58159d65f.chunk.js": "5f55742d20da9ad171c632aa519f8c88a70672b9",
-    "http://www.kundangroups.com/inline.99890c804744ac18fd9c.bundle.js": "d79ffa7525e33edd62f54b9a52d1fd99c22e6df0",
-    "http://www.kundangroups.com/main.685769de708f3812668f.bundle.js": "b65171f90140d73e5c4657dead5ca7684a0966c0",
-    "http://www.kundangroups.com/polyfills.ffd81ab764e1d12b844c.bundle.js": "c3689479040e3d7591357c4dede878a572c2d794",
+    "http://www.kundangroups.com/1.ff15d63cc27cb8a17dad.chunk.js": "17fafceba7a7fe4424d04e1b24b28de3ffdce39e",
+    "http://www.kundangroups.com/2.8eb4bf8d1461cf84d932.chunk.js": "184b555e35fe75ae7b8ef491ad045b4f0638e1c2",
+    "http://www.kundangroups.com/3.fdfbe74aaa6b6555e154.chunk.js": "1da996a23b429bc159ec6d379fe7bd66f1ffe34c",
+    "http://www.kundangroups.com/inline.9af80b4ed3216668dc70.bundle.js": "8ac973cee7748227f6b39413c479929ecbc39deb",
+    "http://www.kundangroups.com/main.df766ff697c59f40d4ab.bundle.js": "2aabe6a04822275e14c9df9818e31d4d5d094320",
+    "http://www.kundangroups.com/polyfills.18946ba35b4503d47f10.bundle.js": "084823498ca41ad5dcbc52692895b3a96d4b50d0",
     "http://www.kundangroups.com/styles.4a3fd0c58cf1abaa7b7d.bundle.css": "4efb7c005ea274930b27f9c2ba24d885b3538604",
     "http://www.kundangroups.com/favicon.ico": "2da36f6889237b43a81734d35a827bb6876521e0",
-    "http://www.kundangroups.com/index.html": "a82db633c7026d678409ebd7b4c5917ee407189d"
+    "http://www.kundangroups.com/index.html": "cf24cd8fbbfe87748ab40355aae0db84cfe87fb2"
   }
 }
