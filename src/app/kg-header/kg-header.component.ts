@@ -19,7 +19,7 @@ export class KgHeaderComponent {
       this.visibleMenu = !this.visibleMenu;
     }
   }
-  hideMenu() {
+  hideMenu(event) {
     this.visibleMenu = false;
     this.shouldShow = !this.shouldShow;
   }

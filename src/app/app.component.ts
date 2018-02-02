@@ -13,7 +13,7 @@ declare var ga;
 })
 export class AppComponent implements OnInit {
   fileDetails: Array<any>;
-  private loadingFlag: boolean;
+  loadingFlag: boolean;
 
   constructor(
     public router: Router,

@@ -14,7 +14,8 @@ import { WINDOW_PROVIDERS, WINDOW } from "./window.service";
   styleUrls: ["scroll-top.component.css"]
 })
 export class KgScrollTopComponent implements OnInit {
-  private scrollTop: boolean;
+  scrollTop: boolean;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     @Inject(WINDOW) private window: Window
