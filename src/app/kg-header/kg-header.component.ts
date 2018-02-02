@@ -11,12 +11,10 @@ export class KgHeaderComponent {
   shouldShow: boolean = false;
 
   clicked(event) {
-
     if (event.target.nodeName === "I") {
       this.shouldShow = !this.shouldShow; // To ADD
       this.visibleMenu = !this.visibleMenu;
-    }
-    else {
+    } else {
       this.shouldShow = !this.shouldShow;
       this.visibleMenu = !this.visibleMenu;
     }
@@ -25,5 +23,4 @@ export class KgHeaderComponent {
     this.visibleMenu = false;
     this.shouldShow = !this.shouldShow;
   }
-
 }
