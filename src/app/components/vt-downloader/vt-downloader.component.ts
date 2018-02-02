@@ -3,7 +3,8 @@ import { OnInit } from "@angular/core/src/metadata/lifecycle_hooks";
 
 @Component({
   selector: "vt-downloader",
-  templateUrl: "vt-downloader.component.html"
+  templateUrl: "vt-downloader.component.html",
+  styleUrls: ["vt-downloader.component.css"]
 })
 export class DownloaderComponent implements OnInit {
   @Input() fileDetails: Array<any>;

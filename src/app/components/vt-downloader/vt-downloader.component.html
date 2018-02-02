@@ -1,3 +1,4 @@
 <div *ngFor="let file of fileDetails">
-    <a [ngClass]="file.type" href="{{file.url}}" download="{{file.title}}" >{{file.title}}</a> 
+    <!-- <a href="{{file.url}}" download="{{file.title}}" class="download-button">{{file.title}}</a> -->
+    <a href="{{file.url}}" download="{{file.title}}" class="download-button">Download</a>
 </div>

@@ -1,6 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { GoogleAnalyticsService } from "./shared/";
+import {Observable} from "rxjs/Observable";
+import "rxjs/add/observable/interval";
 
 declare var ga;
 
@@ -11,14 +13,17 @@ declare var ga;
 })
 export class AppComponent implements OnInit {
   fileDetails: Array<any>;
+  private loadingFlag: boolean;
 
   constructor(
     public router: Router,
     private googleAnalyticsService: GoogleAnalyticsService
   ) {
     this.router.events.subscribe(event => {
+      this.loadingFlag = true;
       if (event instanceof NavigationEnd) {
         this.googleAnalyticsService.emitPageEvent(event);
+        Observable.interval(3000).subscribe(() => this.loadingFlag = false);
       }
     });
   }
