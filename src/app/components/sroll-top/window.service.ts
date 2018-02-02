@@ -28,7 +28,7 @@ export class BrowserWindowRef extends WindowRef {
 }
 
 /* Create an factory function that returns the native window object. */
-function windowFactory(
+export function windowFactory(
   browserWindowRef: BrowserWindowRef,
   platformId: Object
 ): Window | Object {
@@ -39,7 +39,7 @@ function windowFactory(
 }
 
 /* Create a injectable provider for the WindowRef token that uses the BrowserWindowRef class. */
-const browserWindowProvider: ClassProvider = {
+export const browserWindowProvider: ClassProvider = {
   provide: WindowRef,
   useClass: BrowserWindowRef
 };
