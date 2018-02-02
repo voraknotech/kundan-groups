@@ -12,12 +12,14 @@ import { ComponentsModule } from "./components/components.module";
 
 import { AppComponent, KgHeaderComponent, KgFooterComponent } from "./";
 import { DownloaderComponent } from "./components/vt-downloader/vt-downloader.component";
-
+import { KgScrollTopComponent } from "./components/sroll-top/scroll-top.component";
+import { WINDOW_PROVIDERS, WINDOW} from "./components/sroll-top/window.service";
 @NgModule({
   declarations: [
     AppComponent,
     KgHeaderComponent,
     KgFooterComponent,
+    KgScrollTopComponent
     // DownloaderComponent
   ],
   imports: [
@@ -30,7 +32,7 @@ import { DownloaderComponent } from "./components/vt-downloader/vt-downloader.co
     SharedModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ WINDOW_PROVIDERS ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
