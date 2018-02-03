@@ -1,14 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 import { DownloadFileDetail } from "../../../shared";
 
-import { CatalogService, Catalog } from "../../shared/";
+import { CatalogService, Catalog } from "../../shared";
 
 @Component({
-  selector: "kg-product1",
-  templateUrl: "kg-product1.component.html",
-  styleUrls: ["kg-product1.component.css"]
+  selector: "kg-brands",
+  templateUrl: "brands.component.html",
+  styleUrls: ["brands.component.css"]
 })
-export class KgProduct1Component implements OnInit {
+export class BrandsComponent implements OnInit {
   catalog: Catalog;
   fileDetails: Array<any>;
 

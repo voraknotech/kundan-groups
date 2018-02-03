@@ -1,0 +1,34 @@
+<div class="wow" id="product">
+    <div class="container product-page-heading col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center product-heading">
+                <h5 class="alt-font font-weight-600 margin-5px-bottom" style="padding-top: 24px;">Brands</h5>
+                <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
+                    <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
+                </span>
+                <span class="text-uppercase text-extra-small alt-font letter-spacing-3">/Brands</span>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="wow" style="padding:0  20px 20px 20px !important;">
+    <div class="container">
+        <div class="row equalize">
+            <!-- start feature box item -->
+            <div *ngFor="let product of catalog" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 banner-style2 sm-margin-30px-bottom">
+                <figure>
+                    <a [routerLink]="['./', product.brand, product.sku]" routerLinkActive="active">
+                        <img src="{{product.image}}">
+                    </a>
+                </figure>
+                <div class="qodef-product-standard-info-top">
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{product.description}}</span>
+                    <a [routerLink]="['./', product.brand, product.sku]" routerLinkActive="active">
+                        <h6 class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">{{product.name}}</h6>
+                    </a>
+                </div>
+            </div>
+            <!-- end feature box -->
+        </div>
+    </div>
+</section>
