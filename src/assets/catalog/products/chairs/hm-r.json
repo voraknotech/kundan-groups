@@ -1,8 +1,8 @@
 {
-  "sku": "HM-R",
+  "sku": "hm-r",
   "name": "Herman Miller",
   "description": "Comfy beyond compare",
-  "category": "CHAIR",
+  "category": "chairs",
   "color": "Red",
   "price": 25000
 }
