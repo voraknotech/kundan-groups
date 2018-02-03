@@ -76,9 +76,9 @@
                             <table class="shop_attributes col-lg-12 col-md-12 col-md-offset-1 col-lg-offset-0 col-sm-12 col-xs-12">
                                 <tbody>
                                     <tr *ngFor="let product of catalog">
-                                        <th>
+                                        <td>
                                             <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.name}}</a>
-                                        </th>
+                                        </td>
                                         <td>
                                             <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.description}}</a>
                                         </td>
