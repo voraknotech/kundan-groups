@@ -4,8 +4,9 @@ import { Routes, RouterModule } from "@angular/router";
 const routes: Routes = [
   { path: "", loadChildren: "./home/home.module#HomeModule" },
   { path: "about", loadChildren: "./about/about.module#AboutModule" },
-  { path: "contact", loadChildren: "./contact/contact.module#ContactModule" },
-  { path: "products", loadChildren: "./products/products.module#ProductsModule" }
+  { path: "products", loadChildren: "./products/products.module#ProductsModule" },
+  { path: "brands", loadChildren: "./brands/brands.module#BrandsModule" },
+  { path: "contact", loadChildren: "./contact/contact.module#ContactModule" }
 ];
 
 @NgModule({
