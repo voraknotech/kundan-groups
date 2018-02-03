@@ -12,9 +12,9 @@ export class CatalogService {
     return this.httpClient.get("./assets/catalog/index.json");
   }
 
-  readProductDetail(category: string, sku: string): Observable<any> {
+  readProductDetail(page: string, category: string, sku: string): Observable<any> {
     return this.httpClient.get(
-      `./assets/catalog/products/${category}/${sku}.json`
+      `./assets/catalog/${page}/${category}/${sku}.json`
     );
   }
 }

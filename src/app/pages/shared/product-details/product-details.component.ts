@@ -26,7 +26,8 @@ export class ProductDetailsComponent implements OnInit {
     this.route.paramMap
       .switchMap((params: ParamMap): Observable<any> => {
         return this.catalogService.readProductDetail(
-          params.get("category"),
+          params.get("category") ? "products" : "brands",
+          params.get("category") || params.get("brands"),
           params.get("sku")
         );
       })
