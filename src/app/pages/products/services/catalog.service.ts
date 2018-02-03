@@ -6,8 +6,6 @@ import { Observable } from "rxjs/Observable";
 
 @Injectable()
 export class CatalogService {
-  catalog: Catalog;
-
   constructor(private httpClient: HttpClient) {}
 
   readCatalog(): Observable<any> {
