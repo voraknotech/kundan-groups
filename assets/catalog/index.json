@@ -1,14 +1,15 @@
-[
-  {
-    "category": "chairs",
-    "sku": "hm-r",
-    "name": "Herman Miller",
-    "description": "Comfy beyond compare"
-  },
-  {
-    "category": "tables",
-    "sku": "ik-b",
-    "name": "IKEA",
-    "description": "Feng Shui"
-  }
+[{
+        "category": "chairs",
+        "sku": "hm-r",
+        "name": "Herman Miller",
+        "description": "Comfy beyond compare",
+        "image": "assets\/images\/product1\/1.jpg"
+    },
+    {
+        "category": "tables",
+        "sku": "ik-b",
+        "name": "IKEA",
+        "description": "Feng Shui",
+        "image": "assets\/images\/product1\/2.jpg"
+    }
 ]
