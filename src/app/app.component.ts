@@ -1,9 +1,11 @@
 import { Component, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { GoogleAnalyticsService } from "./shared/";
-import {Observable} from "rxjs/Observable";
+import { Observable } from "rxjs/Observable";
 import "rxjs/add/observable/interval";
 import { DownloadFileDetail } from "./shared/";
+
+import { environment } from "../environments/environment";
 
 declare var ga;
 
@@ -24,7 +26,9 @@ export class AppComponent implements OnInit {
       this.loadingFlag = true;
       if (event instanceof NavigationEnd) {
         this.googleAnalyticsService.emitPageEvent(event);
-        Observable.interval(3000).subscribe(() => this.loadingFlag = false);
+        Observable.interval(environment.loaderDuration).subscribe(
+          () => (this.loadingFlag = false)
+        );
       }
     });
   }
@@ -58,7 +62,7 @@ export class AppComponent implements OnInit {
       new DownloadFileDetail(
         "https://drive.google.com/open?id=1isXSiu_OZNHPISqNS9S7w5IgjAgcov8Y",
         "Rakshak",
-         null
+        null
       )
     ];
   }
