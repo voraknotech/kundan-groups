@@ -1,3 +1,7 @@
+@angular/common@5.2.2
+MIT
+MIT
+
 core-js@2.5.3
 MIT
 Copyright (c) 2014-2017 Denis Pushkarev
@@ -76,9 +80,5 @@ MIT
 MIT
 
 @angular/router@5.2.2
-MIT
-MIT
-
-@angular/common@5.2.2
 MIT
 MIT
