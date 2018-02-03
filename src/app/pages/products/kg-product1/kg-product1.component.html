@@ -74,28 +74,13 @@
                                 <span class="price"> &#8377;Price</span>
                             </span>
                             <table class="shop_attributes col-lg-12 col-md-12 col-md-offset-1 col-lg-offset-0 col-sm-12 col-xs-12">
-
-
                                 <tbody>
-
-                                    <tr>
-                                        <th>Details1</th>
-                                        <td>Details1
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Details2</th>
-                                        <td>Details2
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Details3</th>
-                                        <td>Details3
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Details1</th>
-                                        <td>Details4
+                                    <tr *ngFor="let product of catalog">
+                                        <th>
+                                            <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.name}}</a>
+                                        </th>
+                                        <td>
+                                            <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.description}}</a>
                                         </td>
                                     </tr>
                                 </tbody>

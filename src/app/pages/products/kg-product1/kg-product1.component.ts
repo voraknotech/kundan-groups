@@ -1,17 +1,25 @@
 import { Component, OnInit } from "@angular/core";
 import { DownloadFileDetail } from "../../../shared";
 
+import { CatalogService } from "../services/catalog.service";
+import { Catalog } from "../services/catalog.model";
+
 @Component({
   selector: "kg-product1",
   templateUrl: "kg-product1.component.html",
   styleUrls: ["kg-product1.component.css"]
 })
 export class KgProduct1Component implements OnInit {
+  catalog: Catalog;
   fileDetails: Array<any>;
 
-  constructor() {}
+  constructor(private catalogService: CatalogService) {}
 
   ngOnInit() {
+    this.catalogService.readCatalog().subscribe((catalog: Catalog) => {
+      this.catalog = catalog;
+    });
+
     this.fileDetails = [
       new DownloadFileDetail(
         "https://drive.google.com/open?id=1d-C8JMkPVzucekBHUEUVKbsmDSp2yE5C",
@@ -40,7 +48,7 @@ export class KgProduct1Component implements OnInit {
       new DownloadFileDetail(
         "https://drive.google.com/open?id=1isXSiu_OZNHPISqNS9S7w5IgjAgcov8Y",
         "Rakshak",
-         null
+        null
       )
     ];
   }

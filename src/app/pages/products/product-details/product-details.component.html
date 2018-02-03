@@ -1,0 +1,9 @@
+<div>Stock Keeping Unit (Skew)</div>
+<ng-container *ngIf="product">
+    <h3>{{product.name}}</h3>
+    <div>SKU: {{product.sku}}</div>
+    <div>Desc: {{product.description}}</div>
+    <div>Category: {{product.category}}</div>
+    <div>Color: {{product.color}}</div>
+    <div>Price: {{product.price | currency:'₹':'symbol':'4.2-2'}}</div>
+</ng-container>
