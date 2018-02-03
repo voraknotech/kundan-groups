@@ -15,6 +15,7 @@ import { Observable } from "rxjs/Observable";
 })
 export class ProductDetailsComponent implements OnInit {
   product: Product;
+  breadcrumb: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -23,6 +24,10 @@ export class ProductDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.route.data.subscribe(data => {
+      this.breadcrumb = data.breadcrumb;
+    });
+
     this.route.paramMap
       .switchMap((params: ParamMap): Observable<any> => {
         return this.catalogService.readProductDetail(

@@ -7,7 +7,11 @@ import { ProductDetailsComponent } from "../shared";
 
 const routes: Routes = [
   { path: "", component: BrandsComponent, pathMatch: "full" },
-  { path: ":brands/:sku", component: ProductDetailsComponent }
+  {
+    path: ":brands/:sku",
+    component: ProductDetailsComponent,
+    data: { breadcrumb: "brands" }
+  }
 ];
 
 @NgModule({
