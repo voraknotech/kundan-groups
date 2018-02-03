@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "HM-R",
+    "name": "Herman Miller",
+    "description": "Comfy beyond compare",
+    "category": "CHAIR"
+  },
+  {
+    "sku": "IK-B",
+    "name": "IKEA",
+    "description": "Feng Shui",
+    "category": "TABLE"
+  }
+]
