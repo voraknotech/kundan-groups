@@ -299,3 +299,12 @@ h6 {
 .home-route {
     color: #f4b201;
 }
+
+.banner-style2 figure {
+    position: relative;
+    overflow: hidden
+}
+
+.banner-style2 figure:hover .banner-image img {
+    opacity: 0.4;
+}

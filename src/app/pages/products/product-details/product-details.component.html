@@ -1,9 +1,80 @@
-<div>Stock Keeping Unit (Skew)</div>
+<!-- start product desc section -->
 <ng-container *ngIf="product">
-    <h3>{{product.name}}</h3>
-    <div>SKU: {{product.sku}}</div>
-    <div>Desc: {{product.description}}</div>
-    <div>Category: {{product.category}}</div>
-    <div>Color: {{product.color}}</div>
-    <div>Price: {{product.price | currency:'₹':'symbol':'4.2-2'}}</div>
+    <div class="wow" id="product">
+        <div class="container product-page-heading col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center product-heading">
+                    <h5 class="alt-font font-weight-600 margin-5px-bottom" style="padding-top: 24px;">Details</h5>
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
+                        <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
+                    </span>
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3">/<a routerLink="/products" routerLinkActive="active" class="home-route">Kundan Groups</a>/{{product.name}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="wow" style="padding:0  20px 20px 20px !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active" data-thumb="0">
+                                <img src="{{product.image}}" title="Click to see fullscreen">
+                            </div>
+                            <!-- <div class="item" data-thumb="0">
+                                <img src="../../../../assets/images/product1/2.jpg" title="Click to see fullscreen">
+                            </div>
+                            <div class="item" data-thumb="0">
+                                <img src="../../../../assets/images/product1/3.jpg" title="Click to see fullscreen">
+                            </div>
+                            <div class="item" data-thumb="0">
+                                <img src="../../../../assets/images/product1/4.jpg" title="Click to see fullscreen">
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div data-target="#carousel" data-slide-to="0" class="thumb">
+                                        <img src="./assets/images/product1/1.jpg">
+                                    </div>
+                                    <div data-target="#carousel" data-slide-to="1" class="thumb">
+                                        <img src="./assets/images/product1/2.jpg">
+                                    </div>
+                                    <div data-target="#carousel" data-slide-to="2" class="thumb">
+                                        <img src="./assets/images/product1/3.jpg">
+                                    </div>
+                                    <div data-target="#carousel" data-slide-to="3" class="thumb">
+                                        <img src="./assets/images/product1/4.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /carousel-inner -->
+                        </div>
+                        <!-- /thumbcarousel -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-md-offset-1 col-lg-offset-0 col-sm-6 col-xs-12 wow  last-paragraph-no-margin" data-wow-delay="0.2s">
+                    <h1 itemprop="name" class="qodef-single-product-title">{{product.name}}</h1>
+                    <div>
+                        <div class="page" title="Product Name">
+                            <div class="layoutArea">
+                                <div class="column">
+                                    <p>{{product.description}}</p>
+                                </div>
+                                <span class="amount">
+                                    <p style="color:black; font-weight:bold;display: -webkit-inline-box;">Price:</p>
+                                    <span class="price">{{product.price | currency:'₹':'symbol':'4.2-2'}}</span>
+                                </span>
+                                <vt-downloader [fileDetails]="fileDetails"></vt-downloader>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </ng-container>

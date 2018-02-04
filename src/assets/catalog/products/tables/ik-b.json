@@ -1,8 +1,9 @@
 {
-  "sku": "ik-b",
-  "name": "IKEA",
-  "description": "Feng Shui",
-  "category": "chairs",
-  "color": "Black",
-  "price": 30000
+    "sku": "ik-b",
+    "name": "IKEA",
+    "description": "Feng Shui",
+    "category": "chairs",
+    "color": "Black",
+    "price": 30000,
+    "image": "assets\/images\/product1\/2.jpg"
 }

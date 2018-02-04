@@ -1,97 +1,34 @@
-<!-- start product desc section -->
 <div class="wow" id="product">
     <div class="container product-page-heading col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-col text-center product-heading">
-                <h5 class="alt-font font-weight-600 margin-5px-bottom" style="padding-top: 24px;">Details</h5>
+                <h5 class="alt-font font-weight-600 margin-5px-bottom" style="padding-top: 24px;">Products</h5>
                 <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
-                    <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
-                </span>
-                <span class="text-uppercase text-extra-small alt-font letter-spacing-3">/Product Name</span>
+                <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
+            </span>
+                <span class="text-uppercase text-extra-small alt-font letter-spacing-3">/Products</span>
             </div>
         </div>
     </div>
 </div>
 <section class="wow" style="padding:0  20px 20px 20px !important;">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow">
-                <div id="carousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active" data-thumb="0">
-                            <img src="../../../../assets/images/product1/1.jpg" title="Click to see fullscreen">
-                        </div>
-                        <!-- <div class="item" data-thumb="0">
-                            <img src="../../../../assets/images/product1/2.jpg" title="Click to see fullscreen">
-                        </div>
-                        <div class="item" data-thumb="0">
-                            <img src="../../../../assets/images/product1/3.jpg" title="Click to see fullscreen">
-                        </div>
-                        <div class="item" data-thumb="0">
-                            <img src="../../../../assets/images/product1/4.jpg" title="Click to see fullscreen">
-                        </div> -->
-
-                    </div>
-                </div>
-                <div class="clearfix">
-                    <div id="thumbcarousel" class="carousel slide" data-interval="false">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div data-target="#carousel" data-slide-to="0" class="thumb">
-                                    <img src="./assets/images/product1/1.jpg">
-                                </div>
-                                <div data-target="#carousel" data-slide-to="1" class="thumb">
-                                    <img src="./assets/images/product1/2.jpg">
-                                </div>
-                                <div data-target="#carousel" data-slide-to="2" class="thumb">
-                                    <img src="./assets/images/product1/3.jpg">
-                                </div>
-                                <div data-target="#carousel" data-slide-to="3" class="thumb">
-                                    <img src="./assets/images/product1/4.jpg">
-                                </div>
-                            </div>
-                            <!-- /item -->
-
-                            <!-- /item -->
-                        </div>
-                        <!-- /carousel-inner -->
-
-                    </div>
-                    <!-- /thumbcarousel -->
+        <div class="row equalize">
+            <!-- start feature box item -->
+            <div *ngFor="let product of catalog" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 banner-style2 sm-margin-30px-bottom">
+                <figure>
+                    <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">
+                        <img src="{{product.image}}">
+                    </a>
+                </figure>
+                <div class="qodef-product-standard-info-top">
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{product.description}}</span>
+                    <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">
+                        <h6 class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">{{product.name}}</h6>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-5 col-md-offset-1 col-lg-offset-0 col-sm-6 col-xs-12 wow  last-paragraph-no-margin" data-wow-delay="0.2s">
-                <h1 itemprop="name" class="qodef-single-product-title">Product Name</h1>
-                <div>
-                    <div class="page" title="Product Name">
-                        <div class="layoutArea">
-                            <div class="column">
-                                <p>Product Details</p>
-
-                            </div>
-                            <span class="woocommerce-Price-amount amount">
-                                <p style="color:black; font-weight:bold;display: -webkit-inline-box;">Price:</p>
-                                <span class="price"> &#8377;Price</span>
-                            </span>
-                            <table class="shop_attributes col-lg-12 col-md-12 col-md-offset-1 col-lg-offset-0 col-sm-12 col-xs-12">
-                                <tbody>
-                                    <tr *ngFor="let product of catalog">
-                                        <td>
-                                            <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.name}}</a>
-                                        </td>
-                                        <td>
-                                            <a [routerLink]="['./', product.category, product.sku]" routerLinkActive="active">{{product.description}}</a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <vt-downloader [fileDetails]="fileDetails"></vt-downloader>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+            <!-- end feature box -->
         </div>
     </div>
 </section>
