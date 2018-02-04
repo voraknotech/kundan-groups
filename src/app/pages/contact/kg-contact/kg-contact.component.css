@@ -1,0 +1,904 @@
+.container .hover-option4 .grid-item figcaption {
+    padding: 30px;
+}
+
+.text-extra-small {
+    font-size: 11px;
+    line-height: 14px
+}
+
+.text-small {
+    font-size: 12px;
+    line-height: 20px
+}
+
+.text-medium {
+    font-size: 16px;
+    line-height: 23px
+}
+
+.text-large {
+    font-size: 18px;
+    line-height: 26px
+}
+
+.text-extra-large {
+    font-size: 20px;
+    line-height: 26px
+}
+
+.title-large {
+    font-size: 100px;
+    line-height: 95px
+}
+
+.title-extra-large {
+    font-size: 130px;
+    line-height: 120px
+}
+
+
+/* text color */
+
+.text-white {
+    color: #FFF
+}
+
+.text-black {
+    color: #000
+}
+
+.text-extra-dark-gray {
+    color: #232323
+}
+
+.text-dark-gray {
+    color: #626262
+}
+
+.text-extra-medium-gray {
+    color: #757575
+}
+
+.text-medium-gray {
+    color: #939393
+}
+
+.text-extra-light-gray {
+    color: #b7b7b7
+}
+
+.text-light-gray {
+    color: #d6d5d5
+}
+
+.text-very-light-gray {
+    color: #ededed
+}
+
+.text-deep-pink {
+    color: #007BA7
+}
+
+#carousel {
+    margin-top: 20px;
+}
+
+#carousel img {
+    cursor: zoom-in;
+}
+
+.item .thumb {
+    width: 25%;
+    cursor: pointer;
+    float: left;
+    padding: 0.8rem;
+}
+
+.item .thumb img,
+.item img {
+    width: 100%;
+}
+
+.qodef-container-inner {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 25px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 60px
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 54px
+}
+
+h4 {
+    font-size: 40px;
+    line-height: 46px
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 40px
+}
+
+h6 {
+    font-size: 25px;
+    line-height: 30px
+}
+
+
+/* text size */
+
+.text-extra-small {
+    font-size: 11px;
+    line-height: 14px
+}
+
+.text-small {
+    font-size: 12px;
+    line-height: 20px
+}
+
+.text-medium {
+    font-size: 16px;
+    line-height: 23px
+}
+
+.text-large {
+    font-size: 18px;
+    line-height: 26px
+}
+
+.text-extra-large {
+    font-size: 20px;
+    line-height: 26px
+}
+
+.title-large {
+    font-size: 100px;
+    line-height: 95px
+}
+
+.title-extra-large {
+    font-size: 130px;
+    line-height: 120px
+}
+
+
+/* text color */
+
+.text-white {
+    color: #FFF
+}
+
+.text-black {
+    color: #000
+}
+
+.text-extra-dark-gray {
+    color: #232323
+}
+
+.text-dark-gray {
+    color: #626262
+}
+
+.text-extra-medium-gray {
+    color: #757575
+}
+
+.text-medium-gray {
+    color: #939393
+}
+
+.text-extra-light-gray {
+    color: #b7b7b7
+}
+
+.text-light-gray {
+    color: #d6d5d5
+}
+
+.text-very-light-gray {
+    color: #ededed
+}
+
+.text-deep-pink {
+    color: #007BA7
+}
+
+
+/* dropcap */
+
+.first-letter {
+    float: left;
+    font-size: 50px;
+    line-height: auto;
+    margin: 0 20px 0 0;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600
+}
+
+.first-letter-big {
+    float: left;
+    font-size: 110px;
+    line-height: 110px;
+    margin: 0 20px 0 0;
+    padding: 0 8px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+}
+
+.first-letter-big:before {
+    position: absolute;
+    border-bottom: 1px solid;
+    content: "";
+    display: block;
+    width: 100%;
+    top: 55%;
+    left: 0
+}
+
+.first-letter-block {
+    font-size: 30px;
+    height: 55px;
+    line-height: 22px;
+    padding: 15px 0;
+    width: 55px;
+    font-weight: 500;
+    margin-top: 5px
+}
+
+.first-letter-block-round {
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+.first-letter-round {
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 15px;
+    width: 65px;
+    height: 65px;
+    line-height: 32px;
+}
+
+.product-heading {
+    background-color: black;
+    color: white;
+}
+
+.product-page-heading {
+    width: 100%;
+    padding: "";
+    margin: "";
+}
+
+.home-route {
+    color: #f4b201;
+}
+
+
+/* ===================================================================
+ * # contact 
+ *
+ * ------------------------------------------------------------------- */
+
+.s-contact {
+    background-color: #151515;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.s-contact .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: #151515;
+}
+
+.s-contact .form-field {
+    position: relative;
+}
+
+.s-contact .form-field:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.s-contact .form-field label {
+    font-size: 1rem;
+    line-height: 2.4rem;
+    position: absolute;
+    bottom: -0.3rem;
+    right: .6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 0 2rem;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fff;
+}
+
+.s-contact .form-field label::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    margin-top: -6px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+}
+
+.contact__line {
+    display: block;
+    width: 2px;
+    height: 20.4rem;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: -10.2rem;
+    margin-left: -1px;
+}
+
+.contact-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.4);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    position: relative;
+}
+
+.contact-content h3 {
+    margin-top: 0;
+    margin-bottom: 6.6rem;
+    color: #FFFFFF;
+}
+
+.contact-content h5 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.contact-content input[type="email"],
+.contact-content input[type="number"],
+.contact-content input[type="search"],
+.contact-content input[type="text"],
+.contact-content input[type="tel"],
+.contact-content input[type="url"],
+.contact-content input[type="password"],
+.contact-content textarea,
+.contact-content select {
+    color: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    margin-bottom: .9rem;
+}
+
+.contact-content input[type="email"]:focus,
+.contact-content input[type="number"]:focus,
+.contact-content input[type="search"]:focus,
+.contact-content input[type="text"]:focus,
+.contact-content input[type="tel"]:focus,
+.contact-content input[type="url"]:focus,
+.contact-content input[type="password"]:focus,
+.contact-content textarea:focus,
+.contact-content select:focus {
+    color: #FFFFFF;
+    border-bottom: 1px solid #fff;
+}
+
+.contact-content button,
+.contact-content .btn {
+    margin-top: 3.6rem;
+}
+
+.contact-content input::-webkit-input-placeholder,
+.contact-content select::-webkit-input-placeholder,
+.contact-content textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.contact-content input:-moz-placeholder,
+.contact-content select:-moz-placeholder,
+.contact-content textarea:-moz-placeholder {
+    color: #fff;
+    /* Firefox 18- */
+}
+
+.contact-content input::-moz-placeholder,
+.contact-content select::-moz-placeholder,
+.contact-content textarea::-moz-placeholder {
+    color: #fff;
+    /* Firefox 19+ */
+}
+
+.contact-content input:-ms-input-placeholder,
+.contact-content select:-ms-input-placeholder,
+.contact-content textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+.contact-content input.placeholder,
+.contact-content select.placeholder,
+.contact-content textarea.placeholder {
+    color: #fff !important;
+}
+
+.contact-primary,
+.contact-secondary {
+    float: left;
+    padding: 0 5rem;
+}
+
+.contact-primary {
+    width: 50%;
+}
+
+.contact-primary #contactForm {
+    margin-top: -1.5rem;
+}
+
+.contact-secondary {
+    width: 50%;
+}
+
+.contact-secondary::before {
+    content: "";
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #121212;
+}
+
+.contact-secondary .contact-info {
+    position: relative;
+}
+
+.contact-secondary .cinfo {
+    margin-bottom: 4.8rem;
+}
+
+.contact-social {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.contact-social li {
+    margin-right: 15px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.contact-social li a {
+    color: white;
+}
+
+.contact-social li a:hover,
+.contact-social li a:focus {
+    color: #fff;
+}
+
+.contact-social li:last-child {
+    margin: 0;
+}
+
+.message-warning,
+.message-success {
+    display: none;
+    background: #111111;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 3rem;
+    margin-bottom: 3.6rem;
+    width: 100%;
+}
+
+.message-warning {
+    color: #ff6163;
+}
+
+.message-success {
+    color: #fff;
+}
+
+.message-warning i,
+.message-success i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+
+/* form loader
+ * ----------------------------------------------- */
+
+.submit-loader {
+    display: none;
+    position: relative;
+    left: 0;
+    top: 1.8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.submit-loader .text-loader {
+    display: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.846;
+    color: #FFFFFF;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.oldie .submit-loader .s-loader {
+    display: none;
+}
+
+.oldie .submit-loader .text-loader {
+    display: block;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * contact
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    .contact-content {
+        max-width: 700px;
+    }
+    .contact-primary,
+    .contact-secondary {
+        float: none;
+        width: 100%;
+    }
+    .contact-primary #contactForm {
+        margin-top: -1.5rem;
+        margin-bottom: 7.2rem;
+    }
+    .contact-secondary .hide-on-fullwidth {
+        display: none;
+    }
+    .contact-secondary::before {
+        display: none;
+    }
+    .message-warning,
+    .message-success {
+        margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-content h3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-contact {
+        padding-bottom: 0;
+    }
+    .contact__line {
+        height: 14.4rem;
+        top: -7.2rem;
+    }
+    .contact-content {
+        text-align: center;
+    }
+    .contact-primary,
+    .contact-secondary {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-primary,
+    .contact-secondary {
+        padding: 0 5px;
+    }
+}
+
+
+/* ===================================================================
+ * # forms
+ *
+ * ------------------------------------------------------------------- */
+
+fieldset {
+    border: none;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+    display: block;
+    height: 6rem;
+    padding: 1.5rem 0;
+    border: 0;
+    outline: none;
+    color: #333333;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    max-width: 100%;
+    background: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.cl-custom-select {
+    position: relative;
+    padding: 0;
+}
+
+.cl-custom-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    margin: 0;
+    line-height: 3rem;
+    vertical-align: middle;
+}
+
+.cl-custom-select select option {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cl-custom-select select::-ms-expand {
+    display: none;
+}
+
+.cl-custom-select::after {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    content: '';
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-top: -7px;
+    pointer-events: none;
+    position: absolute;
+    right: 2.4rem;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+
+/* IE9 and below */
+
+.oldie .cl-custom-select::after {
+    display: none;
+}
+
+textarea {
+    min-height: 25rem;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    color: #000000;
+    border-bottom: 2px solid black;
+}
+
+label,
+legend {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: .9rem;
+    line-height: 1.714;
+    color: #000000;
+    display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+}
+
+label>.label-text {
+    display: inline-block;
+    margin-left: 1rem;
+    font-weight: normal;
+    line-height: inherit;
+}
+
+label>input[type="checkbox"],
+label>input[type="radio"] {
+    margin: 0;
+    position: relative;
+    top: .15rem;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## style placeholder text
+ * ------------------------------------------------------------------- */
+
+::-webkit-input-placeholder {
+    color: #828282;
+}
+
+:-moz-placeholder {
+    color: #828282;
+    /* Firefox 18- */
+}
+
+::-moz-placeholder {
+    color: #828282;
+    /* Firefox 19+ */
+}
+
+:-ms-input-placeholder {
+    color: #828282;
+}
+
+.placeholder {
+    color: #828282 !important;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## change autocomplete styles in chrome
+ * ------------------------------------------------------------------- */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #000;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/* ===================================================================
+ * # buttons
+ *
+ * ------------------------------------------------------------------- */
+
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    height: 5.4rem;
+    line-height: calc(5.4rem - .4rem);
+    padding: 0 3rem;
+    margin: 0 .3rem 1.2rem 0;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #c5c5c5;
+    border: .2rem solid #c5c5c5;
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    background-color: #b8b8b8;
+    border-color: #b8b8b8;
+    color: #000000;
+    outline: 0;
+}
+
+
+/* button primary
+ * ------------------------------------------------- */
+
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
+input[type="button"].btn--primary {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
+input[type="button"].btn--primary:focus {
+    background: #fff;
+    border-color: #000;
+}
+
+
+/* button modifiers
+  * ------------------------------------------------- */
+
+.btn.full-width,
+button.full-width {
+    width: 100%;
+    margin-right: 0;
+}
