@@ -1,10 +1,10 @@
 {
-  "sku": "ik-b",
-  "name": "IKEA",
-  "brand": "ikea",
-  "description": "Feng Shui",
-  "category": "chairs",
-  "color": "Black",
-  "price": 30000,
-  "image": "assets/images/product1/2.jpg"
+    "sku": "ik-b",
+    "name": "IKEA",
+    "brand": "ikea",
+    "description": "Feng Shui",
+    "category": "chairs",
+    "color": "Black",
+    "price": 30000,
+    "image": "assets/images/product1/2.jpg"
 }

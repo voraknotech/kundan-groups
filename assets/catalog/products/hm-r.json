@@ -1,10 +1,10 @@
 {
-  "sku": "hm-r",
-  "category": "chairs",
-  "brand": "herman-miller",
-  "name": "Herman Miller",
-  "description": "Comfy beyond compare",
-  "color": "Red",
-  "price": 25000,
-  "image": "assets/images/product1/1.jpg"
+    "sku": "hm-r",
+    "category": "chairs",
+    "brand": "herman-miller",
+    "name": "Herman Miller",
+    "description": "Comfy beyond compare",
+    "color": "Red",
+    "price": 25000,
+    "image": "assets/images/product1/1.jpg"
 }
