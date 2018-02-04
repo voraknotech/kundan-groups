@@ -1,18 +1,34 @@
-[
-  {
-    "sku": "hm-r",
-    "category": "chairs",
-    "brand": "herman-miller",
-    "name": "Herman Miller",
-    "description": "Comfy beyond compare",
-    "image": "assets/images/product1/1.jpg"
-  },
-  {
-    "sku": "ik-b",
-    "category": "tables",
-    "brand": "ikea",
-    "name": "IKEA",
-    "description": "Feng Shui",
-    "image": "assets/images/product1/2.jpg"
-  }
-]
+{
+  "brands": [
+    {
+      "name": "Herman Miller",
+      "brand": "herman-miller",
+      "description": "Comfy beyond compare",
+      "image": "assets/images/product1/1.jpg"
+    },
+    {
+      "name": "IKEA",
+      "brand": "ikea",
+      "description": "Feng Shui",
+      "image": "assets/images/product1/2.jpg"
+    }
+  ],
+  "products": [
+    {
+      "sku": "hm-r",
+      "category": "chairs",
+      "brand": "herman-miller",
+      "name": "Herman Miller",
+      "description": "Comfy beyond compare",
+      "image": "assets/images/product1/1.jpg"
+    },
+    {
+      "sku": "ik-b",
+      "category": "tables",
+      "brand": "ikea",
+      "name": "IKEA",
+      "description": "Feng Shui",
+      "image": "assets/images/product1/2.jpg"
+    }
+  ]
+}
