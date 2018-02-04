@@ -8,8 +8,13 @@
                     <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
                         <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
                     </span>
-                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3">/
-                        <a [routerLink]="['/', breadcrumb]" routerLinkActive="active" class="home-route">{{breadcrumb}}</a>/{{product.name}}</span>
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3" *ngIf="brand">
+                        <a routerLink="/brands" routerLinkActive="active" class="home-route">/ Brands </a>
+                    </span>
+                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
+                        <a routerLink="/{{brand ? 'brands/products' : '/products'}}" [queryParams]="{ brand: brand}" routerLinkActive="active" class="home-route">/ Products </a>
+                        / {{product.name}}
+                    </span>
                 </div>
             </div>
         </div>

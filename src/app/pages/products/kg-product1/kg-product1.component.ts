@@ -1,22 +1,47 @@
-import { Component, OnInit } from "@angular/core";
-import { DownloadFileDetail } from "../../../shared";
+import { Component, OnInit, OnDestroy } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
 
-import { CatalogService, Catalog } from "../../shared/";
+import { DownloadFileDetail } from "../../../shared";
+import { CatalogService, Catalog, Product } from "../../shared/";
+import { Subscription } from "rxjs/Subscription";
 
 @Component({
   selector: "kg-product1",
   templateUrl: "kg-product1.component.html",
   styleUrls: ["kg-product1.component.css"]
 })
-export class KgProduct1Component implements OnInit {
-  catalog: Catalog;
+export class KgProduct1Component implements OnInit, OnDestroy {
+  products: Product[];
   fileDetails: Array<any>;
 
-  constructor(private catalogService: CatalogService) {}
+  brand: string;
+
+  private queryParamsSubscription: Subscription;
+  private catalogServiceSubscription: Subscription;
+
+  constructor(
+    private catalogService: CatalogService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    this.catalogService.readCatalog().subscribe((catalog: Catalog) => {
-      this.catalog = catalog;
+    this.queryParamsSubscription = this.route.queryParams.subscribe(params => {
+      this.brand = params["brand"];
+
+      if (this.brand) {
+        this.catalogServiceSubscription = this.catalogService
+          .getProductsByBrand(this.brand)
+          .subscribe((products: Product[]) => {
+            this.products = products;
+          });
+        return;
+      }
+
+      this.catalogServiceSubscription = this.catalogService
+        .getCatalog()
+        .subscribe((catalog: Catalog) => {
+          this.products = catalog.products;
+        });
     });
 
     this.fileDetails = [
@@ -50,5 +75,10 @@ export class KgProduct1Component implements OnInit {
         null
       )
     ];
+  }
+
+  ngOnDestroy() {
+    this.catalogServiceSubscription.unsubscribe();
+    this.queryParamsSubscription.unsubscribe();
   }
 }

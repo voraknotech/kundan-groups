@@ -9,6 +9,12 @@ export interface Product {
   price?: number;
 }
 
+export interface Brand {
+  name: string;
+  description: string;
+}
+
 export interface Catalog {
   products: Product[];
+  brands: Brand[];
 }

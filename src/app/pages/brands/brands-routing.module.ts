@@ -8,9 +8,8 @@ import { ProductDetailsComponent } from "../shared";
 const routes: Routes = [
   { path: "", component: BrandsComponent, pathMatch: "full" },
   {
-    path: ":brands/:sku",
-    component: ProductDetailsComponent,
-    data: { breadcrumb: "brands" }
+    path: "products",
+    loadChildren: "../products/products.module#ProductsModule"
   }
 ];
 

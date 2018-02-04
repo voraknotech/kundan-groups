@@ -1,23 +1,28 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, OnDestroy } from "@angular/core";
 import { DownloadFileDetail } from "../../../shared";
 
-import { CatalogService, Catalog } from "../../shared";
+import { CatalogService, Catalog, Brand } from "../../shared";
+import { Subscription } from "rxjs/Subscription";
 
 @Component({
   selector: "kg-brands",
   templateUrl: "brands.component.html",
   styleUrls: ["brands.component.css"]
 })
-export class BrandsComponent implements OnInit {
-  catalog: Catalog;
+export class BrandsComponent implements OnInit, OnDestroy {
+  brands: Brand[];
   fileDetails: Array<any>;
+
+  private catalogSubscription: Subscription;
 
   constructor(private catalogService: CatalogService) {}
 
   ngOnInit() {
-    this.catalogService.readCatalog().subscribe((catalog: Catalog) => {
-      this.catalog = catalog;
-    });
+    this.catalogSubscription = this.catalogService
+      .getCatalog()
+      .subscribe((catalog: Catalog) => {
+        this.brands = catalog.brands;
+      });
 
     this.fileDetails = [
       new DownloadFileDetail(
@@ -50,5 +55,9 @@ export class BrandsComponent implements OnInit {
         null
       )
     ];
+  }
+
+  ngOnDestroy() {
+    this.catalogSubscription.unsubscribe();
   }
 }
