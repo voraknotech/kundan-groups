@@ -5,13 +5,13 @@
                 <h5 class="alt-font font-weight-600 margin-5px-bottom" style="padding-top: 24px;">Brands</h5>
                 <span class="text-uppercase text-extra-small alt-font letter-spacing-3">
                     <a routerLink="/" routerLinkActive="active" class="home-route">Kundan Groups</a>
-                    / Brands
+                    /Brands
                 </span>
             </div>
         </div>
     </div>
 </div>
-<section class="wow" style="padding:0  20px 20px 20px !important;">
+<section class="wow" style="padding:0  20px 20px 20px !important;height:100vh;">
     <div class="container">
         <div class="row equalize">
             <!-- start feature box item -->
@@ -22,7 +22,6 @@
                     </a>
                 </figure>
                 <div class="qodef-product-standard-info-top">
-                    <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">{{brand.description}}</span>
                     <a routerLink="./products" [queryParams]="{ brand: brand.brand}" routerLinkActive="active">
                         <h6 class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">{{brand.name}}</h6>
                     </a>

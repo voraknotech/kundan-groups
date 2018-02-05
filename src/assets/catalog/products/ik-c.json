@@ -1,0 +1,10 @@
+{
+    "sku": "ik-c",
+    "category": "chairs",
+    "brand": "ikea",
+    "name": "Ikea Herman Miller",
+    "description": "Comfy beyond compare",
+    "color": "Black",
+    "price": 30000,
+    "image": "assets/images/product1/1.jpg"
+}
