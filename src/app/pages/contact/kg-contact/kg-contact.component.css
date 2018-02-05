@@ -917,3 +917,8 @@ button.full-width {
         height: 100%;
     }
 }
+
+agm-map {
+    height: 300px;
+    color: black;
+}

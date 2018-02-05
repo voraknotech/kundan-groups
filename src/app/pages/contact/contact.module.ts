@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { AgmCoreModule } from "@agm/core";
 
 import {
   ContactRoutingModule,
@@ -7,7 +8,13 @@ import {
 } from "./contact-routing.module";
 
 @NgModule({
-  imports: [CommonModule, ContactRoutingModule],
+  imports: [
+    CommonModule,
+    ContactRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: "AIzaSyCkIS7OXlpM-qqYwtb3pvAvfmxr--DvCYU"
+    })
+  ],
   declarations: ContactComponents
 })
-export class ContactModule {}
+export class ContactModule { }
