@@ -1,9 +1,9 @@
 {
     "brands": [{
-            "name": "Herman Miller",
-            "brand": "herman-miller",
-            "description": "Comfy beyond compare",
-            "image": "http://via.placeholder.com/200x100"
+            "name": "Tata Tiscon",
+            "brand": "TataTiscon",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/tatatiscon.jpg"
         },
         {
             "name": "IKEA",
@@ -13,17 +13,17 @@
         }
     ],
     "products": [{
-            "sku": "hm-r",
+            "sku": "tata-tiscon",
             "category": "chairs",
-            "brand": "herman-miller",
-            "name": "Herman Miller",
-            "description": "Comfy beyond compare",
-            "image": "assets/images/product1/1.jpg"
+            "brand": "TataTiscon",
+            "name": "Tata Tiscon",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/tatatiscon.jpg"
         },
         {
             "sku": "hm-s",
             "category": "tables",
-            "brand": "herman-miller",
+            "brand": "TataTiscon",
             "name": "Herman Feng Shui",
             "description": "Feng Shui",
             "image": "assets/images/product1/2.jpg"
