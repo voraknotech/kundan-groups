@@ -1,10 +1,10 @@
 [{
-        "sku": "hm-r",
+        "sku": "tata-tiscon",
         "category": "chairs",
-        "brand": "herman-miller",
-        "name": "Herman Miller",
-        "description": "Comfy beyond compare",
-        "image": "assets/images/product1/1.jpg"
+        "brand": "TataTiscon",
+        "name": "Tata Tiscon",
+        "description": "Atoot Jod",
+        "image": "assets/images/brands/1.jpg"
     },
     {
         "sku": "hm-s",

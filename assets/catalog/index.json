@@ -1,50 +1,48 @@
 {
-  "brands": [
-    {
-      "name": "Herman Miller",
-      "brand": "herman-miller",
-      "description": "Comfy beyond compare",
-      "image": "http://via.placeholder.com/200x100"
-    },
-    {
-      "name": "IKEA",
-      "brand": "ikea",
-      "description": "Feng Shui",
-      "image": "http://via.placeholder.com/350x150"
-    }
-  ],
-  "products": [
-    {
-      "sku": "hm-r",
-      "category": "chairs",
-      "brand": "herman-miller",
-      "name": "Herman Miller",
-      "description": "Comfy beyond compare",
-      "image": "assets/images/product1/1.jpg"
-    },
-    {
-      "sku": "hm-s",
-      "category": "tables",
-      "brand": "herman-miller",
-      "name": "Herman Feng Shui",
-      "description": "Feng Shui",
-      "image": "assets/images/product1/2.jpg"
-    },
-    {
-      "sku": "ik-b",
-      "category": "tables",
-      "brand": "ikea",
-      "name": "IKEA",
-      "description": "Feng Shui",
-      "image": "assets/images/product1/2.jpg"
-    },
-    {
-      "sku": "ik-c",
-      "category": "chairs",
-      "brand": "ikea",
-      "name": "Ikea Herman Miller",
-      "description": "Comfy beyond compare",
-      "image": "assets/images/product1/1.jpg"
-    }
-  ]
+    "brands": [{
+            "name": "Tata Tiscon",
+            "brand": "TataTiscon",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/tatatiscon.jpg"
+        },
+        {
+            "name": "IKEA",
+            "brand": "ikea",
+            "description": "Feng Shui",
+            "image": "http://via.placeholder.com/350x150"
+        }
+    ],
+    "products": [{
+            "sku": "tata-tiscon",
+            "category": "chairs",
+            "brand": "TataTiscon",
+            "name": "Tata Tiscon",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/tatatiscon.jpg"
+        },
+        {
+            "sku": "hm-s",
+            "category": "tables",
+            "brand": "TataTiscon",
+            "name": "Herman Feng Shui",
+            "description": "Feng Shui",
+            "image": "assets/images/product1/2.jpg"
+        },
+        {
+            "sku": "ik-b",
+            "category": "tables",
+            "brand": "ikea",
+            "name": "IKEA",
+            "description": "Feng Shui",
+            "image": "assets/images/product1/2.jpg"
+        },
+        {
+            "sku": "ik-c",
+            "category": "chairs",
+            "brand": "ikea",
+            "name": "Ikea Herman Miller",
+            "description": "Comfy beyond compare",
+            "image": "assets/images/product1/1.jpg"
+        }
+    ]
 }
