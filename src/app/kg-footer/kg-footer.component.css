@@ -2,13 +2,16 @@
     position: relative;
     float: left;
     width: 100%;
-    padding: 100px 0px 30px;
+    padding: 40px 0px 30px;
     text-align: center;
-    background-color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 13px -3px #222 inset;
+    -moz-box-shadow: 0 8px 13px -3px #222 inset;
+    box-shadow: 0 8px 13px -3px #222 inset;
 }
 
 a {
-    color: #fff;
+    color: #000;
 }
 
 .footer-folow {
@@ -21,7 +24,7 @@ a {
 .footer-folow a span {
     font-size: 24px;
     margin: 0px 12px;
-    color: #fff;
+    color: #000;
     transition: all 0.35s ease-in;
     -webkit-transition: all 0.35s ease-in;
     -moz-transition: all 0.35s ease-in;
@@ -34,7 +37,6 @@ a {
 
 .copyright span {
     font-size: 14px;
-    color: #fff;
+    color: #000;
     text-transform: none;
-    color: #555;
 }

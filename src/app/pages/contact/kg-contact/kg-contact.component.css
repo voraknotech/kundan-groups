@@ -41,7 +41,7 @@
 /* text color */
 
 .text-white {
-    color: #FFF
+    color: #000
 }
 
 .text-black {
@@ -188,7 +188,7 @@ h6 {
 /* text color */
 
 .text-white {
-    color: #FFF
+    color: #000
 }
 
 .text-black {
@@ -307,7 +307,6 @@ h6 {
  * ------------------------------------------------------------------- */
 
 .s-contact {
-    background-color: #151515;
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 0;
@@ -323,7 +322,6 @@ h6 {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
 }
 
 .s-contact .form-field {
@@ -346,8 +344,7 @@ h6 {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #FFFFFF;
-    background: #fff;
+    color: #000;
 }
 
 .s-contact .form-field label::after {
@@ -358,24 +355,11 @@ h6 {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #fff;
-}
-
-.contact__line {
-    display: block;
-    width: 2px;
-    height: 20.4rem;
-    background-color: #fff;
-    position: absolute;
-    left: 50%;
-    top: -10.2rem;
-    margin-left: -1px;
+    border-right: 5px solid #000;
 }
 
 .contact-content {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
-    padding-top: 6rem;
+    color: rgba(255, 255, 255, 1);
     padding-bottom: 6rem;
     font-size: 1.5rem;
     line-height: 2;
@@ -388,12 +372,12 @@ h6 {
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 2rem;
-    color: #FFFFFF;
+    color: #000;
 }
 
 .contact-content h5 {
     margin-top: 0;
-    color: #fff;
+    color: #000;
 }
 
 .contact-content input[type="email"],
@@ -406,7 +390,7 @@ h6 {
 .contact-content textarea,
 .contact-content select {
     color: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid #000;
     margin-bottom: .9rem;
 }
 
@@ -419,8 +403,8 @@ h6 {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
-    border-bottom: 1px solid #fff;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 .contact-content button,
@@ -431,33 +415,33 @@ h6 {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #fff;
+    color: #000;
     /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #fff;
+    color: #000;
     /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .contact-primary,
@@ -476,6 +460,7 @@ h6 {
 
 .contact-secondary {
     width: 50%;
+    padding: 0;
 }
 
 .contact-secondary::before {
@@ -486,7 +471,7 @@ h6 {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #121212;
+    background-color: #fff;
 }
 
 .contact-secondary .contact-info {
@@ -516,7 +501,7 @@ h6 {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-    color: #fff;
+    color: #000;
 }
 
 .contact-social li:last-child {
@@ -526,7 +511,7 @@ h6 {
 .message-warning,
 .message-success {
     display: none;
-    background: #111111;
+    background: #fff;
     font-size: 1.5rem;
     line-height: 2;
     padding: 3rem;
@@ -539,7 +524,7 @@ h6 {
 }
 
 .message-success {
-    color: #fff;
+    color: #000;
 }
 
 .message-warning i,
@@ -567,7 +552,7 @@ h6 {
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;
-    color: #FFFFFF;
+    color: #000;
     letter-spacing: .2rem;
     text-transform: uppercase;
 }
@@ -865,7 +850,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: #b8b8b8;
     border-color: #b8b8b8;
-    color: #000000;
+    color: #fff;
     outline: 0;
 }
 
@@ -878,9 +863,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #fff;
-    border-color: #fff;
-    color: #000;
+    background: #000;
+    border-color: #000;
+    color: #fff;
 }
 
 .btn.btn--primary:hover,
@@ -893,7 +878,7 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #fff;
+    background: #000;
     border-color: #000;
 }
 
@@ -919,6 +904,11 @@ button.full-width {
 }
 
 agm-map {
-    height: 300px;
+    height: 100vh;
     color: black;
+}
+
+.contactInfo {
+    text-align: left;
+    color: #000;
 }

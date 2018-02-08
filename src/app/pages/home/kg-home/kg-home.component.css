@@ -112,7 +112,7 @@ section,
     color: #333;
 }
 
-h1.title strong {
+h1.title {
     font-family: "Allura";
     text-transform: none;
     letter-spacing: 0;
@@ -120,7 +120,7 @@ h1.title strong {
 }
 
 .text-light h1 {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 h1.title {
