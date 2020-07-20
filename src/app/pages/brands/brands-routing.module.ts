@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: "", component: BrandsComponent, pathMatch: "full" },
   {
     path: "products",
-    loadChildren: "../products/products.module#ProductsModule"
+    loadChildren: () => import('../products/products.module').then(m => m.ProductsModule)
   },{
     path: ":link",
     component: ProductDetailsComponent

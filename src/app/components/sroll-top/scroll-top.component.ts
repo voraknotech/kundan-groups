@@ -6,7 +6,7 @@ import {
   OnInit
 } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { DOCUMENT } from "@angular/platform-browser";
+import { DOCUMENT } from "@angular/common";
 import { WINDOW_PROVIDERS, WINDOW } from "./window.service";
 @Component({
   selector: "kg-scroll-top",
