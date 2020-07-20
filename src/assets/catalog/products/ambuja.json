@@ -1,0 +1,13 @@
+{
+    "category": "",
+    "brand": "Ambuja",
+    "name": "Ambuja",
+    "description": "Majboot Jod",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/Ambuja/3.jpg",
+    "images":[
+        "assets/images/Ambuja/4.jpg",
+        "assets/images/Ambuja/5.jpg"
+    ]
+}

@@ -80,17 +80,16 @@
     color: #007BA7
 }
 
-#carousel {
+#kgcarousel {
     margin-top: 20px;
 }
 
-#carousel img {
+/* #carousel img {
     cursor: zoom-in;
-}
+} */
 
 .item .thumb {
     width: 25%;
-    cursor: pointer;
     float: left;
     padding: 0.8rem;
 }

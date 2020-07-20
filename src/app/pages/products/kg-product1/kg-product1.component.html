@@ -21,7 +21,7 @@
             <div *ngFor="let product of products" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 banner-style2 sm-margin-30px-bottom">
                 <figure>
                     <a [routerLink]="['./', product.sku]" [queryParams]="{ brand: brand}" routerLinkActive="active">
-                        <img src="{{product.image}}">
+                        <img class="image" src="{{product.image}}">
                     </a>
                 </figure>
                 <div class="qodef-product-standard-info-top">

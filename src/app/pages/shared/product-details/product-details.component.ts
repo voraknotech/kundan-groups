@@ -27,13 +27,10 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
-    this.queryParamsSubscription = this.route.queryParams.subscribe(params => {
-      this.brand = params["brand"];
-    });
 
     this.routeParamSubscription = this.route.paramMap
       .switchMap((params: ParamMap): Observable<any> => {
-        return this.catalogService.getProductDetail(params.get("sku"));
+        return this.catalogService.getProductDetail(params.get("link"));
       })
       .subscribe(
         (product: Product) => {
@@ -46,6 +43,5 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   }
   ngOnDestroy() {
     this.routeParamSubscription.unsubscribe();
-    this.queryParamsSubscription.unsubscribe();
   }
 }

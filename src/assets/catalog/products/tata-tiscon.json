@@ -1,10 +1,15 @@
 {
-    "sku": "tata-tiscon",
-    "category": "chairs",
+    "category": "",
     "brand": "TataTiscon",
     "name": "Tata Tiscon",
     "description": "Atoot Jod",
     "color": "Black",
     "price": 30000,
-    "image": "assets/images/product1/1.jpg"
+    "imageActive": "assets/images/TataTiscon/1.jpg",
+    "images":[
+        "assets/images/TataTiscon/2.jpg",
+        "assets/images/TataTiscon/3.jpg",
+        "assets/images/TataTiscon/4.jpg",
+        "assets/images/TataTiscon/5.jpg"
+    ]
 }

@@ -17,11 +17,14 @@ export class DownloaderComponent implements OnInit {
 
     private createDownloadLinks(): void {
         const downloadKeyword = "export=download";
-        for (let i = 0; i < this.fileDetails.length; i++) {
-            const n = this.fileDetails[i].fileUrl.search(downloadKeyword);
-            if (n < 1) {
-                this.fileDetails[i].fileUrl = this.fileDetails[i].fileUrl.replace(/open/i, "uc");
-                this.fileDetails[i].fileUrl = this.fileDetails[i].fileUrl.concat("&export=download");
+        if(this.fileDetails){
+
+            for (let i = 0; i < this.fileDetails.length; i++) {
+                const n = this.fileDetails[i].fileUrl.search(downloadKeyword);
+                if (n < 1) {
+                    this.fileDetails[i].fileUrl = this.fileDetails[i].fileUrl.replace(/open/i, "uc");
+                    this.fileDetails[i].fileUrl = this.fileDetails[i].fileUrl.concat("&export=download");
+                }
             }
         }
     }

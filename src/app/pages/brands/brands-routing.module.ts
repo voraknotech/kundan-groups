@@ -10,6 +10,9 @@ const routes: Routes = [
   {
     path: "products",
     loadChildren: "../products/products.module#ProductsModule"
+  },{
+    path: ":link",
+    component: ProductDetailsComponent
   }
 ];
 

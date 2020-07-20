@@ -310,7 +310,7 @@ h6 {
 }
 
 .sectionContent {
-    height: 100vh;
+    height: auto;
     padding: 20px;
 }
 
@@ -318,4 +318,9 @@ h6 {
     .sectionContent {
         height: 100%;
     }
+}
+
+.image{
+    width: 210px;
+    height: 220px;
 }

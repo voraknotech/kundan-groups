@@ -1,48 +1,94 @@
 {
     "brands": [{
             "name": "Tata Tiscon",
+            "link":"tata-tiscon",
             "brand": "TataTiscon",
             "description": "Atoot Jod",
-            "image": "assets/images/brands/tatatiscon.jpg"
+            "image": "assets/images/brands/tataTiscon.jpg"
         },
         {
-            "name": "IKEA",
-            "brand": "ikea",
-            "description": "Feng Shui",
-            "image": "http://via.placeholder.com/350x150"
-        }
-    ],
-    "products": [{
-            "sku": "tata-tiscon",
-            "category": "chairs",
-            "brand": "TataTiscon",
-            "name": "Tata Tiscon",
+            "name": "Ambuja",
+            "link":"ambuja",
+            "brand": "Ambuja",
             "description": "Atoot Jod",
-            "image": "assets/images/brands/tatatiscon.jpg"
+            "image": "assets/images/brands/ambuja.jpg"
         },
         {
-            "sku": "hm-s",
-            "category": "tables",
-            "brand": "TataTiscon",
-            "name": "Herman Feng Shui",
-            "description": "Feng Shui",
-            "image": "assets/images/product1/2.jpg"
+            "name": "American Standard",
+            "link": "american-standard",
+            "brand": "AmericanStandard",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/americanStandard.jpg"
         },
         {
-            "sku": "ik-b",
-            "category": "tables",
-            "brand": "ikea",
-            "name": "IKEA",
-            "description": "Feng Shui",
-            "image": "assets/images/product1/2.jpg"
+            "name": "Armstrong",
+            "link": "armstrong",
+            "brand": "Armstrong",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/armstrong.jpg"
         },
         {
-            "sku": "ik-c",
-            "category": "chairs",
-            "brand": "ikea",
-            "name": "Ikea Herman Miller",
-            "description": "Comfy beyond compare",
-            "image": "assets/images/product1/1.jpg"
+            "name": "Century Doors",
+            "link": "century-doors",
+            "brand": "CenturyDoors",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/century.jpg"
+        },
+        {
+            "name": "Roff",
+            "link": "roff",
+            "brand": "Roff",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/roff.jpg"
+        },
+        {
+            "name": "Saint Gobain",
+            "link": "saint-gobain",
+            "brand": "SaintGobain",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/saintGobain.jpg"
+        },
+        {
+            "name": "uPVC Window",
+            "link": "uPVC-window",
+            "brand": "uPVCWindow",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/uPVCWindows.jpg"
+        },
+        {
+            "name": "USG Boral",
+            "link": "usg-boral",
+            "brand": "USGBoral",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/USGBoral.jpg"
+        },
+        {
+            "name": "Vinyl Flooring",
+            "link": "vinyl-flooring",
+            "brand": "VinylFlooring",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/vinylFlooring.jpg"
+        },
+        {
+            "name": "Vitrified Tiles",
+            "link": "vitrified-tiles",
+            "brand": "VitrifiedTiles",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/vitrifiedTiles.jpg"
+        },
+        {
+            "name": "Vivanta Ply & Doors",
+            "link": "vivanta",
+            "brand": "Vivanta",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/vivanta.jpg"
+        },
+        {
+            "name": "Wooden Flooring",
+            "link": "wooden-flooring",
+            "brand": "WoodenFlooring",
+            "description": "Atoot Jod",
+            "image": "assets/images/brands/woodenFlooring.jpg"
         }
     ]
 }

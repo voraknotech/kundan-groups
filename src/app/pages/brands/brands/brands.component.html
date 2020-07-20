@@ -14,20 +14,18 @@
 <section class="wow sectionContent">
     <div class="container">
         <div class="row equalize">
-            <!-- start feature box item -->
             <div *ngFor="let brand of brands" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 banner-style2 sm-margin-30px-bottom">
                 <figure>
-                    <a routerLink="./products" [queryParams]="{ brand: brand.brand}" routerLinkActive="active">
-                        <img src="{{brand.image}}">
+                    <a [routerLink]="['./', brand.link]" routerLinkActive="active">
+                        <img class="image" src="{{brand.image}}">
                     </a>
                 </figure>
                 <div class="qodef-product-standard-info-top">
-                    <a routerLink="./products" [queryParams]="{ brand: brand.brand}" routerLinkActive="active">
+                    <a [routerLink]="['./', brand.link]"  routerLinkActive="active">
                         <h6 class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">{{brand.name}}</h6>
                     </a>
                 </div>
             </div>
-            <!-- end feature box -->
         </div>
     </div>
 </section>
