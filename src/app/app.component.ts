@@ -1,7 +1,8 @@
+
+import {interval as observableInterval,  Observable } from 'rxjs';
 import { Component, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { GoogleAnalyticsService } from "./shared/";
-import { Observable } from "rxjs/Observable";
 import "rxjs/add/observable/interval";
 import { DownloadFileDetail } from "./shared/";
 
@@ -26,7 +27,7 @@ export class AppComponent implements OnInit {
       this.loadingFlag = true;
       if (event instanceof NavigationEnd) {
         this.googleAnalyticsService.emitPageEvent(event);
-        Observable.interval(environment.loaderDuration).subscribe(
+        observableInterval(environment.loaderDuration).subscribe(
           () => (this.loadingFlag = false)
         );
       }

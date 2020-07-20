@@ -3,7 +3,7 @@ import { ActivatedRoute } from "@angular/router";
 
 import { DownloadFileDetail } from "../../../shared";
 import { CatalogService, Catalog, Product } from "../../shared/";
-import { Subscription } from "rxjs/Subscription";
+import { Subscription } from "rxjs";
 
 @Component({
   selector: "kg-product1",

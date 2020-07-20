@@ -1,13 +1,13 @@
+
+import {switchMap} from 'rxjs/operators';
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import { ActivatedRoute, ParamMap } from "@angular/router";
 
 import "rxjs/add/operator/switchMap";
-import { ObservableInput } from "rxjs/Observable";
+import { ObservableInput ,  Observable ,  Subscription } from "rxjs";
 
 import { Product } from "../services/catalog.model";
 import { CatalogService } from "../services/catalog.service";
-import { Observable } from "rxjs/Observable";
-import { Subscription } from "rxjs/Subscription";
 
 @Component({
   selector: "kg-product-details",
@@ -28,10 +28,10 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
 
-    this.routeParamSubscription = this.route.paramMap
-      .switchMap((params: ParamMap): Observable<any> => {
+    this.routeParamSubscription = this.route.paramMap.pipe(
+      switchMap((params: ParamMap): Observable<any> => {
         return this.catalogService.getProductDetail(params.get("link"));
-      })
+      }))
       .subscribe(
         (product: Product) => {
           this.product = product;

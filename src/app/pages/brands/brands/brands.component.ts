@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from "@angular/core";
 import { DownloadFileDetail } from "../../../shared";
 
 import { CatalogService, Catalog, Brand } from "../../shared";
-import { Subscription } from "rxjs/Subscription";
+import { Subscription } from "rxjs";
 
 @Component({
   selector: "kg-brands",
