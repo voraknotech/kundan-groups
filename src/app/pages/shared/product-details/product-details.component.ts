@@ -1,10 +1,10 @@
 
-import {switchMap} from 'rxjs/operators';
+import { switchMap } from 'rxjs/operators';
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import { ActivatedRoute, ParamMap } from "@angular/router";
 
 import "rxjs/add/operator/switchMap";
-import { ObservableInput ,  Observable ,  Subscription } from "rxjs";
+import { ObservableInput, Observable, Subscription } from "rxjs";
 
 import { Product } from "../services/catalog.model";
 import { CatalogService } from "../services/catalog.service";
@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   constructor(
     private route: ActivatedRoute,
     public catalogService: CatalogService
-  ) {}
+  ) { }
 
   ngOnInit() {
 
@@ -35,6 +35,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
       .subscribe(
         (product: Product) => {
           this.product = product;
+          console.log(product);
         },
         err => {
           console.log("404");

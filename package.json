@@ -1,5 +1,5 @@
 {
-  "name": "angular-scaffolding",
+  "name": "Kundan Groups",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -22,13 +22,16 @@
     "@angular/compiler": "^9.1.12",
     "@angular/core": "^9.1.12",
     "@angular/forms": "^9.1.12",
+    "@angular/localize": "^9.1.12",
     "@angular/platform-browser": "^9.1.12",
     "@angular/platform-browser-dynamic": "^9.1.12",
     "@angular/platform-server": "^9.1.12",
     "@angular/router": "^9.1.12",
     "@angular/service-worker": "^9.1.12",
+    "@ng-bootstrap/ng-bootstrap": "^6.2.0",
     "@nguniversal/express-engine": "^9.1.1",
     "@nguniversal/module-map-ngfactory-loader": "^9.0.0-next.9",
+    "bootstrap": "^4.4.0",
     "compression": "^1.7.1",
     "core-js": "^2.5.3",
     "express": "^4.16.2",
@@ -41,7 +44,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.11",
+    "@angular-devkit/build-angular": "~0.901.15",
     "@angular/cli": "^9.1.11",
     "@angular/compiler-cli": "^9.1.12",
     "@angular/language-service": "^9.1.12",
