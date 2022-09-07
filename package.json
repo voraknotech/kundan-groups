@@ -28,7 +28,6 @@
     "@angular/platform-server": "^9.1.12",
     "@angular/router": "^9.1.12",
     "@angular/service-worker": "^9.1.12",
-    "@ng-bootstrap/ng-bootstrap": "^6.2.0",
     "@nguniversal/express-engine": "^9.1.1",
     "@nguniversal/module-map-ngfactory-loader": "^9.0.0-next.9",
     "bootstrap": "^4.4.0",

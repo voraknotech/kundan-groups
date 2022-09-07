@@ -24,7 +24,8 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   constructor(
     private route: ActivatedRoute,
     public catalogService: CatalogService
-  ) { }
+  ) {
+  }
 
   ngOnInit() {
 

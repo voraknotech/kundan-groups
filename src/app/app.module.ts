@@ -15,7 +15,6 @@ import { AppComponent, KgHeaderComponent, KgFooterComponent } from "./";
 import { DownloaderComponent } from "./components/vt-downloader/vt-downloader.component";
 import { KgScrollTopComponent } from "./components/sroll-top/scroll-top.component";
 import { WINDOW_PROVIDERS, WINDOW } from "./components/sroll-top/window.service";
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +25,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "kundan-groups" }),
-    NgbModule,
     ServiceWorkerModule.register("/ngsw-worker.js", {
       enabled: environment.production
     }),
