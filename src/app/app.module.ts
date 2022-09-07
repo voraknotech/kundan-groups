@@ -26,6 +26,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: "kundan-groups" }),
+    NgbModule,
     ServiceWorkerModule.register("/ngsw-worker.js", {
       enabled: environment.production
     }),
@@ -36,7 +37,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AgmCoreModule.forRoot({
       apiKey: "AIzaSyCkIS7OXlpM-qqYwtb3pvAvfmxr--DvCYU"
     }),
-    NgbModule
   ],
   providers: [WINDOW_PROVIDERS],
   bootstrap: [AppComponent]
