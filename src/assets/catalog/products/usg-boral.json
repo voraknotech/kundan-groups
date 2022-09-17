@@ -1,0 +1,15 @@
+{
+    "category": "",
+    "brand": "USG Boral",
+    "name": "USG Boral",
+    "description": "USG Boral",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/uSGBoral/1.jpg",
+    "images":[
+        "assets/images/products/uSGBoral/2.jpg",
+        "assets/images/products/uSGBoral/3.jpg",
+        "assets/images/products/uSGBoral/4.jpg"
+
+    ]
+}

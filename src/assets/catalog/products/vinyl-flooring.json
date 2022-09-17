@@ -1,0 +1,15 @@
+{
+    "category": "",
+    "brand": "Vinyl Flooring",
+    "name": "Vinyl Flooring",
+    "description": "Vinyl Flooring",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/vinylFlooring/1.jpg",
+    "images":[
+        "assets/images/products/vinylFlooring/2.jpg",
+        "assets/images/products/vinylFlooring/3.jpg",
+        "assets/images/products/vinylFlooring/4.jpg"
+
+    ]
+}

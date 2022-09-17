@@ -1,0 +1,15 @@
+{
+    "category": "",
+    "brand": "Vivanta Ply & Doors",
+    "name": "Vivanta Ply & Doors",
+    "description": "Vivanta Ply & Doors",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/vivanta/1.jpg",
+    "images":[
+        "assets/images/products/vivanta/2.jpg",
+        "assets/images/products/vivanta/3.jpg",
+        "assets/images/products/vivanta/4.jpg"
+
+    ]
+}

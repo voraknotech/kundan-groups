@@ -1,0 +1,15 @@
+{
+    "category": "",
+    "brand": "American Standard",
+    "name": "American Standard",
+    "description": "American Standard",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/americanStandard/1.jpg",
+    "images":[
+        "assets/images/products/americanStandard/2.jpg",
+        "assets/images/products/americanStandard/3.jpg",
+        "assets/images/products/americanStandard/4.jpg"
+
+    ]
+}

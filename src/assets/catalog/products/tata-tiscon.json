@@ -5,12 +5,12 @@
     "description": "Atoot Jod",
     "color": "Black",
     "price": 30000,
-    "imageActive": "assets/images/products/TataTiscon/1.jpg",
+    "imageActive": "assets/images/products/tataTiscon/1.jpg",
     "images":[
-        "assets/images/products/TataTiscon/1.jpg",
-        "assets/images/products/TataTiscon/2.jpg",
-        "assets/images/products/TataTiscon/3.jpg",
-        "assets/images/products/TataTiscon/4.jpg",
-        "assets/images/products/TataTiscon/5.jpg"
+        "assets/images/products/tataTiscon/1.jpg",
+        "assets/images/products/tataTiscon/2.jpg",
+        "assets/images/products/tataTiscon/3.jpg",
+        "assets/images/products/tataTiscon/4.jpg",
+        "assets/images/products/tataTiscon/5.jpg"
     ]
 }

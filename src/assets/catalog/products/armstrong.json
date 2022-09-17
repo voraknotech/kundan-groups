@@ -1,0 +1,15 @@
+{
+    "category": "",
+    "brand": "Armstrong",
+    "name": "Armstrong",
+    "description": "Armstrong",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/armstrong/1.jpg",
+    "images":[
+        "assets/images/products/armstrong/2.jpg",
+        "assets/images/products/armstrong/3.jpg",
+        "assets/images/products/armstrong/4.jpg"
+
+    ]
+}

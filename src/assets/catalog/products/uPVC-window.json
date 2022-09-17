@@ -1,0 +1,13 @@
+{
+    "category": "",
+    "brand": "UPVC Window",
+    "name": "UPVC Window",
+    "description": "UPVC Window",
+    "color": "Black",
+    "price": 30000,
+    "imageActive": "assets/images/products/uPVCWindow/1.jpg",
+    "images":[
+        "assets/images/products/uPVCWindow/2.jpg"
+
+    ]
+}
