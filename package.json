@@ -37,12 +37,12 @@
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.6.0",
     "rxjs-compat": "^6.0.0-rc.0",
-    "ts-loader": "^3.4.0",
+    "ts-loader": "^9.4.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.15",
+    "@angular-devkit/build-angular": "~15.0.4",
     "@angular/cli": "^9.1.11",
     "@angular/compiler-cli": "^9.1.12",
     "@angular/language-service": "^9.1.12",
